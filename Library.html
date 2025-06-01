@@ -1,0 +1,289 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Genres</title>
+    <link rel="stylesheet" href="home.css" />
+    <style>
+      body {
+        background: url("img/background.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+      .books-grid2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-left: 20px;
+      }
+      .book-shelf1 {
+        max-width: 1200px;
+        margin: 10px auto 10px auto;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .book-shelf1 h2 {
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 32px;
+        margin: 10px 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="img/logo.jpg" alt="Bookworm’s Haven Logo" class="logo-img" />
+        <span id="home">Bookworm’s Haven</span>
+      </div>
+      <nav class="nav" role="navigation">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#top">Books</a></li>
+          <li><a href="home.html#genres">Genres</a></li>
+          <li><a href="home.html#bestsellers">Bestsellers</a></li>
+          <li><a href="home.html#about">About Us</a></li>
+          <li><a href="home.html#timings">Timings</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Search in site"
+          aria-label="Search books"
+        />
+        <img src="img/search-icon.png" alt="Search Icon" class="search-icon" />
+      </div>
+    </header>
+    <section id="bestsellers" class="book-shelf1">
+      <h2 class="books-title">Bestsellers</h2>
+      <div class="books-grid">
+        <div class="book-item">
+          <img src="img/book1.jpg" alt="The Fault In Our Stars" class="book-img" />
+          <h3 class="book-title">The Fault In Our Stars</h3>
+          <p class="book-author">By John Green</p>
+          <p class="book-price">$59.00</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book6.jpeg" alt="To Kill a Mockingbird" class="book-img" />
+          <h3 class="book-title">To Kill a Mockingbird</h3>
+          <p class="book-author">by Harper Lee</p>
+          <p class="book-price">$12.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book2.jpeg" alt="1984" class="book-img" />
+          <h3 class="book-title">1984</h3>
+          <p class="book-author">by George Orwell</p>
+          <p class="book-price">$14.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book4.jpg" alt="The Great Gatsby" class="book-img" />
+          <h3 class="book-title">The Great Gatsby</h3>
+          <p class="book-author">by F. Scott Fitzgerald</p>
+          <p class="book-price">$10.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book5.jpg" alt="Pride and Prejudice" class="book-img" />
+          <h3 class="book-title">Pride and Prejudice</h3>
+          <p class="book-author">by Jane Austen</p>
+          <p class="book-price">$8.99</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mystery Section -->
+    <section id="Mystery" class="book-shelf1">
+      <h2 class="books-title">Mystery</h2>
+      <div class="books-grid2">
+        <div class="book-item">
+          <img src="img/book8.jpeg" alt="Mystery Book 1" class="book-img" />
+          <h3 class="book-title">And Then There Were None</h3>
+          <p class="book-author">by Agatha Christie</p>
+          <p class="book-price">$13.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book9.jpeg" alt="Mystery Book 2" class="book-img" />
+          <h3 class="book-title">The Big Sleep</h3>
+          <p class="book-author">by Raymond Chandler</p>
+          <p class="book-price">$12.49</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book10.jpeg" alt="1984" class="book-img" />
+          <h3 class="book-title">Gone Girl</h3>
+          <p class="book-author">by Gillian Flynn</p>
+          <p class="book-price">$10.99</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+    <!-- Romance Section -->
+    <section id="Romance" class="book-shelf1">
+      <h2 class="books-title">Romance</h2>
+      <div class="books-grid2">
+        <div class="book-item">
+          <img src="img/book11.jpeg" alt="Romance Book 1" class="book-img" />
+          <h3 class="book-title">The Love of My Afterlife</h3>
+          <p class="book-author">by Kirsty Greenwood</p>
+          <p class="book-price">$10.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book12.jpeg" alt="Romance Book 2" class="book-img" />
+          <h3 class="book-title">A Court of Mist and Fury</h3>
+          <p class="book-author">by Sarah J. Maas</p>
+          <p class="book-price">$10.29</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book13.jpeg" alt="Romance Book 3" class="book-img" />
+          <h3 class="book-title">Twilight</h3>
+          <p class="book-author">by Stephenie Meyer</p>
+          <p class="book-price">$11.49</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+    <!-- Fiction Section -->
+    <section id="Fiction" class="book-shelf1">
+      <h2 class="books-title">Fiction</h2>
+      <div class="books-grid2">
+        <div class="book-item">
+          <img src="img/book6.jpeg" alt="Fiction Book 1" class="book-img" />
+          <h3 class="book-title">To Kill A Mockingbird</h3>
+          <p class="book-author">By Harper Lee</p>
+          <p class="book-price">$12.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book7.jpeg" alt="Fiction Book 2" class="book-img" />
+          <h3 class="book-title">Romeo And Juliet</h3>
+          <p class="book-author">by William Shakespeare</p>
+          <p class="book-price">$9.99</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book4.jpg" alt="Fiction Book 3" class="book-img" />
+          <h3 class="book-title">The Great Gatsby</h3>
+          <p class="book-author">by F. Scott Fitzgerald</p>
+          <p class="book-price">$10.49</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+    <!-- Comedy Section -->
+    <section id="Comedy" class="book-shelf1">
+      <h2 class="books-title">Comedy</h2>
+      <div class="books-grid2">
+        <div class="book-item">
+          <img src="img/book17.jpeg" alt="Comedy Book 1" class="book-img" />
+          <h3 class="book-title">Catch-22</h3>
+          <p class="book-author">by Joseph Heller</p>
+          <p class="book-price">$9.29</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book18.jpeg" alt="Comedy Book 2" class="book-img" />
+          <h3 class="book-title">Good Omens</h3>
+          <p class="book-author">by Terry Pratchett</p>
+          <p class="book-price">$10.69</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book19.jpeg" alt="Comedy Book 3" class="book-img" />
+          <h3 class="book-title">The Princess Bride</h3>
+          <p class="book-author">by William Goldman</p>
+          <p class="book-price">$11.89</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+    <!-- Action Section -->
+    <section id="Action" class="book-shelf1">
+      <h2 class="books-title">Action</h2>
+      <div class="books-grid2">
+        <div class="book-item">
+          <img src="img/book14.jpeg" alt="Action Book 1" class="book-img" />
+          <h3 class="book-title">Leviathan Wakes</h3>
+          <p class="book-author">by James S.A. Corey</p>
+          <p class="book-price">$13.59</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book15.jpeg" alt="Action Book 2" class="book-img" />
+          <h3 class="book-title">Jurassic Park</h3>
+          <p class="book-author">by Michael Crichton</p>
+          <p class="book-price">$12.79</p>
+          <button class="order-button">Order</button>
+        </div>
+        <div class="book-item">
+          <img src="img/book16.jpeg" alt="Action Book 3" class="book-img" />
+          <h3 class="book-title">Deathworld</h3>
+          <p class="book-author">by Harry Harrison</p>
+          <p class="book-price">$11.99</p>
+          <button class="order-button">Order</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3 class="footer-title">Bookworm’s Haven</h3>
+          <p class="footer-address">
+            123 Book Street, Knowledge Park<br />
+            B15 020011<br />
+            Email: contact@bookwormshaven.com<br />
+            Phone: 055 512 6542
+          </p>
+          <div class="footer-social">
+            <a href=>Facebook</a> |
+            <a href="https://m.facebook.com/bookwormheavens/">Facebook</a> | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a> |
+            <a href="https://www.instagram.com/bookworms_heaven1?igsh=dHcxdXN4YnRwcDdy">Instagram</a> |
+            <a href="https://www.linkedin.com/company/bookworm-goa/">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-column topics">
+          <h3 class="footer-title">Topics</h3>
+          <ol class="footer-links">
+            <li><a href="Library.html#Fiction">Fiction</a></li>
+            <li><a href="Library.html#Romance">Romance</a></li>
+            <li><a href="Library.html#Action">Action</a></li>
+            <li><a href="Library.html#Mystery">Mystery</a></li>
+            <li><a href="Library.html#Comedy">Comedy</a></li>
+          </ol>
+        </div>
+        <div class="footer-column explore">
+          <h3 class="footer-title">Explore</h3>
+          <ul class="footer-links">
+            <li><a href="Library.html#bestsellers">Bestsellers</a></li>
+            <li><a href="Library.html">New Arrivals</a></li>
+            <li><a href="#genres">Genres</a></li>
+            <li><a href="Library.html">Recommended Picks</a></li>
+          </ul>
+        </div>
+        <div class="footer-column company">
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-links">
+            <li><a href="home.html#about">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bookworm’s Haven. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

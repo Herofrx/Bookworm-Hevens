@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xslt"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<bookstore>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
+        <year>1951</year>
+        <price>10.99</price>
+        <isbn>9780316769488</isbn>
+    </book>
+    <book>
+        <title>Fahrenheit 451</title>
+        <author>Ray Bradbury</author>
+        <genre>Dystopian</genre>
+        <year>1953</year>
+        <price>12.99</price>
+        <isbn>9781451673319</isbn>
+    </book>
+    <book>
+        <title>The Handmaid's Tale</title>
+        <author>Margaret Atwood</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>1985</year>
+        <price>14.99</price>
+        <isbn>9780385490818</isbn>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction, Classic</genre>
+        <year>1925</year>
+        <price>16.99</price>
+        <isbn>9780743273565</isbn>
+    </book>
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Fiction, Inspirational</genre>
+        <year>1988</year>
+        <price>9.99</price>
+        <isbn>9780061122415</isbn>
+    </book>
+    <book>
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy, Fiction</genre>
+        <year>1997</year>
+        <price>24.99</price>
+        <isbn>9780590353427</isbn>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy, Adventure</genre>
+        <year>1954</year>
+        <price>19.99</price>
+        <isbn>9780345339683</isbn>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>1949</year>
+        <price>15.99</price>
+        <isbn>9780451524935</isbn>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction, Classic</genre>
+        <year>1960</year>
+        <price>14.99</price>
+        <isbn>9780060935467</isbn>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <genre>Romance, Classic</genre>
+        <year>1813</year>
+        <price>9.99</price>
+        <isbn>9781936594245</isbn>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy, Adventure</genre>
+        <year>1937</year>
+        <price>12.99</price>
+        <isbn>9780547928255</isbn>
+    </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>1932</year>
+        <price>11.99</price>
+        <isbn>9780060850524</isbn>
+    </book>
+    <book>
+        <title>The Picture of Dorian Gray</title>
+        <author>Oscar Wilde</author>
+        <genre>Fiction, Classic</genre>
+        <year>1890</year>
+        <price>13.50</price>
+        <isbn>9780451526342</isbn>
+    </book>
+    <book>
+        <title>Catch-22</title>
+        <author>Joseph Heller</author>
+        <genre>Fiction, War</genre>
+        <year>1961</year>
+        <price>12.99</price>
+        <isbn>9781451626650</isbn>
+    </book>
+    <book>
+        <title>The Giver</title>
+        <author>Lois Lowry</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>1993</year>
+        <price>10.99</price>
+        <isbn>9780544336261</isbn>
+    </book>
+    <book>
+        <title>Little Women</title>
+        <author>Louisa May Alcott</author>
+        <genre>Fiction, Classic</genre>
+        <year>1868</year>
+        <price>9.99</price>
+        <isbn>9780143106655</isbn>
+    </book>
+    <book>
+        <title>Wuthering Heights</title>
+        <author>Emily Brontë</author>
+        <genre>Fiction, Classic</genre>
+        <year>1847</year>
+        <price>10.99</price>
+        <isbn>9780143124543</isbn>
+    </book>
+    <book>
+        <title>The Fault in Our Stars</title>
+        <author>John Green</author>
+        <genre>Young Adult, Fiction</genre>
+        <year>2012</year>
+        <price>14.99</price>
+        <isbn>9780142424175</isbn>
+    </book>
+    <book>
+        <title>The Road</title>
+        <author>Cormac McCarthy</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>2006</year>
+        <price>16.00</price>
+        <isbn>9780307387899</isbn>
+    </book>
+    <book>
+        <title>Lord of the Flies</title>
+        <author>William Golding</author>
+        <genre>Dystopian, Fiction</genre>
+        <year>1954</year>
+        <price>10.99</price>
+        <isbn>9780399501487</isbn>
+    </book>
+    <book>
+        <title>Angela's Ashes</title>
+        <author>Frank McCourt</author>
+        <genre>Memoir, Biography</genre>
+        <year>1996</year>
+        <price>13.50</price>
+        <isbn>9780684834354</isbn>
+    </book>
+    <book>
+        <title>A Tale of Two Cities</title>
+        <author>Charles Dickens</author>
+        <genre>Historical Fiction, Classic</genre>
+        <year>1859</year>
+        <price>11.99</price>
+        <isbn>9780451530578</isbn>
+    </book>
+    <book>
+        <title>Gone with the Wind</title>
+        <author>Margaret Mitchell</author>
+        <genre>Historical Fiction, Romance</genre>
+        <year>1936</year>
+        <price>12.99</price>
+        <isbn>9781451628920</isbn>
+    </book>
+    <book>
+        <title>The Kite Runner</title>
+        <author>Khaled Hosseini</author>
+        <genre>Fiction, Drama</genre>
+        <year>2003</year>
+        <price>15.99</price>
+        <isbn>9781594631931</isbn>
+    </book>
+    <book>
+        <title>Life of Pi</title>
+        <author>Yann Martel</author>
+        <genre>Adventure, Fiction</genre>
+        <year>2001</year>
+        <price>13.99</price>
+        <isbn>9780156012195</isbn>
+    </book>
+    <book>
+        <title>The Hunger Games</title>
+        <author>Suzanne Collins</author>
+        <genre>Dystopian, Young Adult</genre>
+        <year>2008</year>
+        <price>12.99</price>
+        <isbn>9780439023528</isbn>
+    </book>
+    <book>
+        <title>Memoirs of a Geisha</title>
+        <author>Arthur Golden</author>
+        <genre>Historical Fiction</genre>
+        <year>1997</year>
+        <price>14.99</price>
+        <isbn>9781400079015</isbn>
+    </book>
+</bookstore>  
